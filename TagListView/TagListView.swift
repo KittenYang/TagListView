@@ -379,6 +379,7 @@ open class TagListView: UIView {
     @discardableResult
     open func addTagView(_ tagView: TagView) -> TagView {
         defer { rearrangeViews() }
+        tagView.
         tagViews.append(tagView)
         tagBackgroundViews.append(UIView(frame: tagView.bounds))
         
